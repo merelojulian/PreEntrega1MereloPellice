@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    height: 3rem;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+
+    a {
+        color: white;
+    }
+}
+
+.carrito {
+    display: flex;
+    gap: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.carrito .numero {
+    font-size: 1rem;
+}
